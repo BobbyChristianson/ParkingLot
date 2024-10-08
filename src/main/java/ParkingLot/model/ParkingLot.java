@@ -24,4 +24,9 @@ public class ParkingLot {
         this.address = address;
         this.levels = levels;
     }
+
+    @Override
+    public String toString() {
+        return name;
+    }
 }
